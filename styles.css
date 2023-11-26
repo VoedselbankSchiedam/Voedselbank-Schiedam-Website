@@ -23,11 +23,14 @@ body {
 }
 
 nav {
+    position: relative;
     display: flex;
     align-items: center;
     width: 1440px;
     height: 120px;
     justify-content: space-between;
+    margin-top: 500px;
+    background-color: white;
 }
 
 ul,
@@ -176,4 +179,40 @@ footer a {
 
 .titel{
     text-align: center;
+
 }
+
+/*header*/
+
+header img{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 500px;
+
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#txt{
+    margin-top: 200px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+}
+
