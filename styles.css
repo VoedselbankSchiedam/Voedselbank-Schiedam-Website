@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+ 
+:root {
+    --orange: #EE7402;
+    --dark-green: #166818;
+    --light-green: #13aa00;
+    --grey: #808080;
+    --red: #D60000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 120px;
+    justify-content: space-between;
+}
+
+ul,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 670px;
+    height: 70px;
+}
+
+.nav-items li {
+    font-weight: 600;
+    height: 70px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-items li:hover {
+    font-weight: 600;
+    background-color: #EE7402;
+    text-align: center;
+    cursor: pointer;
+}
+
+.doneer-btn {
+    width: 190px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    background-color: var(--red);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.doneer-btn:hover {
+    background-color: #13aa00;
+    cursor: pointer;
+}
+
+main {
+    width: 1440px;
+    height: 2000px;
+}
+
+.hero {
+    position: relative;
+    margin-top: 40px;
+    width: 1440px;
+    height: 550px;
+    background-image: url(./assets/voedselbank-hero.png);
+    background-size: cover;
+    background-position-y: -80px;
+    color:white;
+}
+
+.hero h1 {
+    font-size: 58px;
+}
+
+.hero span {
+    font-size: 24px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero-overlay {
+    position: absolute;
+    width: 1440px;
+    height: 550px;
+    padding-top: 150px;
+    padding-left: 80px;
+    text-shadow: 0px 0px 4px #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 100px;
+}
+
+.btn {
+    width: 472px;
+    height: 70px;
+    border: none;
+    background-color: #ee7402b0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main__text {
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 300px;
+}
+
+.info {
+    width: 460px;
+    height: 280px;
+    padding: 25px 35px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px -5px rgba(149, 162, 233, 0.2);
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 270px;
+    width: 100%;
+    height: 300px;
+    background-color: #166817;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    width: 1440px;
+    align-items: start;
+    height: 300px;
+    gap: 170px;
+    padding-top: 20px
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.slogan {
+    margin-top: -50px;
+}
+
+footer a {
+    width: max-content;
+}
+
+.footer__quick-links a:hover {
+    border-bottom: #fff 2px solid;
+    cursor: pointer;
+}
+
+.schiedam {
+    display: flex;
+    align-items:center;
+    gap: 30px;
+    margin-bottom: 20px
+}
+
+.footer__quick-links,
+.footer__anbi,
+.footer__adress {
+    display: flex;
+    flex-direction: column;;
+    gap: 8px;
+    padding-top: 15px;
+}
+
+.footer__quick-links h4,
+.footer__anbi h4 {
+    margin-bottom: 10px;
+}
+
+
